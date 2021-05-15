@@ -1,4 +1,4 @@
-#Projeto com Spring Boot 2.4.5
+# Projeto com Spring Boot 2.4.5
 
 ## Enunciado
 
@@ -12,13 +12,13 @@ Você deverá entregar um projeto Spring Boot 2.4.x contendo um CRUD completo de
 
 Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. A especificação da entidade Client.
 
-##Busca paginada de clientes
+## Busca paginada de clientes
 `GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name`
 
-##Busca de client por id
+## Busca de client por id
 `GET /clients/1`
 
-##Inserção de novo cliente
+## Inserção de novo cliente
 `POST /clients`
 
 ```json
@@ -31,7 +31,7 @@ Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. 
 }
 
 ```
-##Atualização de cliente
+## Atualização de cliente
 `PUT /clients`
 ```json
 {
@@ -44,5 +44,5 @@ Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. 
 
 ```
 
-##Deleção de cliente
+## Deleção de cliente
 `DELETE /clients/1`
